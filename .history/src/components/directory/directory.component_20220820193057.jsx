@@ -1,7 +1,0 @@
-export default Directory = ({categories}) => {
-    return (
-        {categories.map((category) => (
-            <CategoryItem key={category.id} category={category} />
-          ))}
-    )
-};
